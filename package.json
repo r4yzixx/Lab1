@@ -1,0 +1,9 @@
+{
+  "name": "eventia-location",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node --test tests/*.test.js",
+    "check": "node --check services/client-service/src/server.js && node --check services/equipment-service/src/server.js && node --check services/reservation-service/src/server.js && node --check services/notification-service/src/server.js"
+  }
+}
